@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.bgnjing{
+    position: relative;
+    background-size: cover;
+    background-repeat: repeat-x;
+    animation: bergerak 110s linear infinite;
+}
+
+@keyframes bergerak{
+    from{
+        background-position: 17% 0;
+    }to{
+        background-position: 100% 0;
+    }
+}
+
+@keyframes animasiMengetik{
+    from{
+        width: 0;
+    }to{
+        width: 100%;
+    }
+}
